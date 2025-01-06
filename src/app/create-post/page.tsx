@@ -1,7 +1,8 @@
 import { createPost } from "@/actions/actions";
+import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
 import React from "react";
 
-export default function Page() {
+export default async function Page() {
   return (
     <main className="text-center pt-16">
       <h1 className="text-4xl font-bold mb-5">Create Post</h1>
@@ -17,6 +18,7 @@ export default function Page() {
           Submit
         </button>
       </form>
+      <LogoutLink>Log out</LogoutLink>
     </main>
   );
 }
