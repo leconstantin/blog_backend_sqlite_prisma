@@ -6,6 +6,7 @@ type Tpost = {
   title: string;
 };
 export default async function Page() {
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   const response = await fetch("https://dummyjson.com/posts?limit=10");
   const data = await response.json();
   return (
