@@ -4,7 +4,7 @@ import React from "react";
 
 export default async function Page() {
   return (
-    <main className="text-center pt-16 pb-6">
+    <main className="text-center pt-16 pb-6 mx-4">
       <h1 className="text-4xl font-bold mb-5">Create Post</h1>
       <form
         action={createPost}
