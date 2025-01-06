@@ -1,5 +1,5 @@
 import { prisma } from "@/lib/db";
-import type { Metadata, ResolvingMetadata } from "next";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import React from "react";
 
