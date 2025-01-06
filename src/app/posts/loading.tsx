@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function loading() {
+export default function Loading() {
   return (
-    <main className="text-center pt-20 px-5 flex flex-col items-center justify-center min-h-screen ">
-      <h1 className="text-4xl font-bold mb-5 block h-5 w-32 bg-zinc-500 rounded-xl animate-pulse"></h1>
+    <main className="text-center pt-20 px-5 flex flex-col items-center justify-center min-h-52 ">
+      {/* <h1 className="text-4xl font-bold mb-5 block h-5 w-32 bg-zinc-500 rounded-xl animate-pulse"></h1> */}
       <ul>
         {Array.from({ length: 5 }).map((_, i) => (
           <li key={i} className="mb-3">
